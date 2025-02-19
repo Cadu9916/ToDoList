@@ -4,13 +4,14 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
-    height: 5%;
+    height: 60px;
     background-color: black;
     color: aliceblue;
     
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 main{
     display: unset;
@@ -29,6 +30,32 @@ main{
     flex-direction: row;
     align-items: center;
     width: 90%;
+}
+.sectionHeader1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sectionHeader2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sectionHeader3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.botaoSectionHeader{
+    background-color: rgb(255, 146, 219);
+    color: aliceblue;
+    opacity: 0.5;
+    width: 5%;
+    border-radius: 5px;
+    border: none;
 }
 .lateral{
     width: 10%;
